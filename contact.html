@@ -8,15 +8,37 @@
 </head>
 <body>
     <header>
-        <a class="logo" href="/"><img src="Nav Logo.png" alt="logo" hiehgt="86px" width="159px"></a>
+        <a class="logo" href="home.html"><img src="NavLogo.png" alt="logo"></a>
         <nav>
             <ul class="nav__links">
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">Our Misson</a></li>
-                <li><a href="#">Donate</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="stats.html">Our Misson</a></li>
+                <li><a href="donate.html">Donate</a></li>
             </ul>
         </nav>
         <a class="cta" href="#">Contact</a>
     </header>
+<!-- Contact Form -->
+    <section class="form-wrapper">
+        <div class="form-title">
+            <h1>CONTACT US</h1>
+        </div>
+
+        <div class="contact-form">
+            <div class="input-boxes">
+                <input type="text" class="input" placeholder="Name" required>
+                <input type="text" class="input" placeholder="Phone Number" required>
+                <input type="text" class="input" placeholder="Email Address" required>
+            </div>
+
+            <div class="message">
+                <textarea placeholder="Comments..."></textarea>
+                <button type="submit" class="btn contact-button">
+                    <i class="fas fa-envelope"></i>
+                    Send
+                </button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

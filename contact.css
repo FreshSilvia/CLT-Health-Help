@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
 }
-  
+
+/* Header CSS */
+
 header {
     display: flex;
     justify-content: flex-end;
@@ -61,7 +63,7 @@ header {
     background-color: #bdd6c1;
 }
 
-/* Form Css */
+/* Form CSS */
 
 .form-wrapper {
     position: absolute;
@@ -121,9 +123,49 @@ header {
     border-radius: 5px;
 }
 
+/* Footer Styling */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #47525E;
+    padding: 20px;
+    margin-right: auto;
+}
+
+.socials {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.socials a {
+    color: #47525E;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    transition: 400ms ease;
+}
+
+.socials a:hover {
+    transition: 400ms ease;
+    color: #eee;
+}
+
 /* General Stlying */
 
 body {
     background-image: linear-gradient(to bottom, #eeeeee 65%, #bdd6c1);
+    background-repeat: none;
     height: 100vh;
+}
+
+.main {
+    min-height: 100vh;  
 }
